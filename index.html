@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<script src="controller.js"></script>
+<script src="model.js"></script>
+<script src="view.js"></script>
+
+<body>
+    <div>
+        <label>
+            1st positive integer:
+        </label>
+        <input id="First" name="First">
+    </div>
+    <div>
+        <label>
+            Operator:
+        </label>
+        <select id="Operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+    </div>
+    <div>
+        <label>
+            2nd positive integer:
+        </label>
+        <input id="Second" name="Second">
+    </div>
+    <button id="Submit" name="Submit">Try me!</button>
+
+    <div id="Result"></div>
+</body>
+
+</html>
